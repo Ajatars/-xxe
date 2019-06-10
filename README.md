@@ -1,7 +1,7 @@
 # -实战xxe
 原理:
 XXE就是XML外部实体注入。当允许引用外部实体时，通过构造恶意内容，就可能导致任意文件读取、系统命令执行、内网端口探测、攻击内网网站等危害。</br>
-具体学习:https://www.jianshu.com/p/77f2181587a4</br>
+具体学习:https://xz.aliyun.com/t/3357#toc-12</br>
 ### 实战开始:
 首先目标是一个商城网站,微信支付处存在xml传输 /plugin/payment/wechat/notify_url.php</br>
 传入正常的xml进行探测:</br>
@@ -19,7 +19,7 @@ XXE就是XML外部实体注入。当允许引用外部实体时，通过构造�
 </catalog>
 ```
 返回结果</br>
-![1.jpg](https://i.loli.net/2019/06/10/5cfdde5d7fe3416843.jpg)</br>
+![1.jpg](https://i.loli.net/2019/06/10/5cfde5e3a34b031822.jpg)</br>
 
 正常响应</br>
 传入攻击payload读取文件</br>
