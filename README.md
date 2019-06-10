@@ -61,3 +61,6 @@ python -m SimpleHTTPServer 80
 ![7.jpg](https://i.loli.net/2019/06/10/5cfddff85862528530.jpg)</br>
 base64解码</br>
 ![4.jpg](https://i.loli.net/2019/06/10/5cfdde5d545e486392.jpg)</br>
+
+xxe的危害不仅仅在于读取文件，另外还有内网主机探测,端口探测，若开启了某些协议甚至可在getshell
+未完待续....
